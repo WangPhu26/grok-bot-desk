@@ -4,7 +4,7 @@
   "fomoHandle": "Hely_kimo",
   "profileUrl": "https://fomo.family/profile/Hely_kimo?source=share_link&r=savipww",
   "signupUrl": "https://fomo.family/r/savipww",
-  "notifier": "webpush",
+  "notifier": "telegram",
   "analystMode": "rules",
   "settings": {
     "scanner.min_liquidity_usd": 40000,
@@ -47,13 +47,22 @@
     "risk.timeout_h": 3,
     "risk.timeout_min_gain_pct": 5,
     "risk.confirm_window_min": 2,
+    "jupiter.enabled": false,
+    "jupiter.quote_only": true,
+    "jupiter.slippage_bps": 50,
+    "jupiter.max_input_usd": 100,
+    "jupiter.test_stack_usd": 50,
+    "jupiter.max_trade_usd": 10,
+    "jupiter.max_open_positions": 1,
+    "jupiter.daily_loss_limit_usd": 15,
     "desk.mode": "PAPER",
     "desk.paper_start_stack": 200,
     "desk.report_time": "08:00",
-    "desk.notifier": "webpush",
+    "desk.notifier": "telegram",
     "desk.rpc_url": "https://api.mainnet-beta.solana.com",
     "desk.push_rejects": false,
     "desk.fees_ref_discount": 0.1,
-    "desk.paused_agents": []
+    "desk.paused_agents": [],
+    "desk.tg_owner_chat_id": 6583057632
   }
 }
