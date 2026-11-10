@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grok Bot — Terminal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #000; }
+  body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: #e5e5e5; font-size: 13px; line-height: 1.55;
+    display: flex; flex-direction: column; height: 100vh; height: 100dvh;
+  }
+  header {
+    padding: 10px 12px 8px; border-bottom: 1px solid #1c1c1e;
+    background: #000; flex: 0 0 auto;
+  }
+  .title { color: #34c759; font-weight: 700; letter-spacing: .5px; }
+  .title .dim { color: #8e8e93; font-weight: 400; }
+  .meta { margin-top: 4px; color: #aeaeb2; word-spacing: 2px; }
+  .meta b { color: #fff; font-weight: 600; }
+  .badge { display: inline-block; padding: 0 6px; border-radius: 4px; font-weight: 700; }
+  .badge.paper { background: #ff9f0a; color: #000; }
+  .badge.live { background: #ff3b30; color: #fff; }
+  .agents { margin-top: 4px; color: #8e8e93; }
+  .agents .on { color: #34c759; }
+  .agents .off { color: #48484a; }
+  #log {
+    flex: 1 1 auto; overflow-y: auto; padding: 10px 12px 16px;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  .line { margin-bottom: 2px; }
+  .ts { color: #636366; }
+  .ag-scanner { color: #0a84ff; }
+  .ag-auditor { color: #bf5af2; }
+  .ag-analyst { color: #ff9f0a; }
+  .ag-executor { color: #34c759; }
+  .ag-risk { color: #ff453a; }
+  .k-bought, .k-sold { color: #34c759; }
+  .k-stopped { color: #ff453a; }
+  .k-rejected, .k-killed { color: #8e8e93; }
+  .k-push { color: #64d2ff; }
+  .sys { color: #ff9f0a; }
+  footer {
+    flex: 0 0 auto; padding: 8px 12px; border-top: 1px solid #1c1c1e;
+    color: #636366; font-size: 12px; display: flex; justify-content: space-between;
+  }
+  footer a { color: #0a84ff; text-decoration: none; }
+  #follow {
+    position: fixed; right: 12px; bottom: 44px; display: none;
+    background: #1c1c1e; color: #34c759; border: 1px solid #34c759;
+    border-radius: 6px; padding: 4px 10px; cursor: pointer; font: inherit;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="title">GROK BOT <span class="dim">— terminal</span></div>
+  <div class="meta" id="meta">connecting…</div>
+  <div class="agents" id="agents"></div>
+</header>
+<div id="log"></div>
+<button id="follow">↓ follow tail</button>
+<footer>
+  <span id="updated">auto-refresh 15s</span>
+  <a id="back" href="./">← app</a>
+</footer>
+<script>
+(function () {
+  var LS_PATH = 'grokbot_data_path';
+  var logEl = document.getElementById('log');
+  var metaEl = document.getElementById('meta');
+  var agentsEl = document.getElementById('agents');
+  var updatedEl = document.getElementById('updated');
+  var followBtn = document.getElementById('follow');
+  var seen = {};
+  var following = true;
+
+  function dataPath() {
+    if (location.hash.indexOf('#d=') === 0) {
+      var d = location.hash.slice(3).split('/')[0].split('?')[0];
+      if (d) { try { localStorage.setItem(LS_PATH, d); } catch (e) {} location.hash = ''; return d; }
+    }
+    try { return localStorage.getItem(LS_PATH) || ''; } catch (e) { return ''; }
+  }
+  var path = dataPath();
+
+  function sysLine(text) {
+    var div = document.createElement('div');
+    div.className = 'line sys';
+    div.textContent = text;
+    logEl.appendChild(div);
+    trim();
+    if (following) logEl.scrollTop = logEl.scrollHeight;
+  }
+  function trim() {
+    while (logEl.children.length > 300) logEl.removeChild(logEl.firstChild);
+  }
+  function fmtTime(iso) {
+    try { return new Date(iso).toLocaleTimeString([], { hour12: false }); }
+    catch (e) { return (iso || '').slice(11, 19); }
+  }
+  function agentSpan(agent) {
+    var s = document.createElement('span');
+    s.className = 'ag-' + (agent || 'scanner');
+    s.textContent = '[' + (agent || '?') + ']';
+    return s;
+  }
+  function addRow(r) {
+    var key = r.ts + '|' + (r.mint || '') + '|' + r.kind;
+    if (seen[key]) return;
+    seen[key] = 1;
+    var div = document.createElement('div');
+    div.className = 'line';
+    var ts = document.createElement('span');
+    ts.className = 'ts';
+    ts.textContent = fmtTime(r.ts) + ' ';
+    div.appendChild(ts);
+    div.appendChild(agentSpan(r.agent));
+    var body = document.createElement('span');
+    body.className = 'k-' + (r.kind || '');
+    var txt = ' ' + (r.title || '') + ' — ' + (r.subtitle || '');
+    if (r.value) txt += ' · ' + r.value;
+    body.textContent = txt;
+    div.appendChild(body);
+    logEl.appendChild(div);
+  }
+  function renderState(s) {
+    if (!s) return;
+    var badge = s.mode === 'LIVE'
+      ? '<span class="badge live">LIVE</span>'
+      : '<span class="badge paper">PAPER</span>';
+    metaEl.innerHTML = badge + ' &nbsp;balance <b>$' + Number(s.balance || 0).toFixed(2) + '</b>'
+      + ' &nbsp;today <b>' + (Number(s.todayPct || 0) >= 0 ? '+' : '') + Number(s.todayPct || 0).toFixed(2) + '%</b>'
+      + ' &nbsp;open <b>' + (s.openPositions || 0) + '</b>';
+    agentsEl.innerHTML = (s.agents || []).map(function (a) {
+      return '<span class="' + (a.alive ? 'on' : 'off') + '">' + (a.alive ? '●' : '○') + ' ' + a.name + '</span>';
+    }).join(' &nbsp; ');
+    if (s.generatedAt) {
+      var age = Math.round((Date.now() - new Date(s.generatedAt).getTime()) / 1000);
+      updatedEl.textContent = age > 90
+        ? '⚠ data stale ' + age + 's — desk may be down'
+        : 'updated ' + fmtTime(s.generatedAt) + ' · auto-refresh 15s';
+      updatedEl.style.color = age > 90 ? '#ff453a' : '';
+    }
+  }
+  function refresh() {
+    if (!path) {
+      metaEl.textContent = 'No data path — open the main app once first, then come back here.';
+      return;
+    }
+    fetch('d/' + path + '/state.json', { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(renderState)
+      .catch(function () { sysLine('-- state.json unreachable --'); });
+    fetch('d/' + path + '/activity.json', { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(function (a) {
+        (a.rows || []).slice().reverse().forEach(addRow);
+        trim();
+        if (following) logEl.scrollTop = logEl.scrollHeight;
+      })
+      .catch(function () { sysLine('-- activity.json unreachable --'); });
+  }
+  logEl.addEventListener('scroll', function () {
+    var nearBottom = logEl.scrollHeight - logEl.scrollTop - logEl.clientHeight < 80;
+    following = nearBottom;
+    followBtn.style.display = nearBottom ? 'none' : 'block';
+  });
+  followBtn.addEventListener('click', function () {
+    following = true;
+    logEl.scrollTop = logEl.scrollHeight;
+    followBtn.style.display = 'none';
+  });
+  document.getElementById('back').href = path ? './#d=' + path : './';
+  sysLine('grok bot terminal — live activity, newest at the bottom');
+  refresh();
+  setInterval(refresh, 15000);
+})();
+</script>
+</body>
+</html>
