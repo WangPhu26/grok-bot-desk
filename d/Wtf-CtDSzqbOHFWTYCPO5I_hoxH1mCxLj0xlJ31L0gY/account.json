@@ -51,7 +51,7 @@
     "jupiter.quote_only": true,
     "jupiter.slippage_bps": 50,
     "jupiter.max_input_usd": 100,
-    "jupiter.test_stack_usd": 50,
+    "jupiter.test_stack_usd": 25,
     "jupiter.max_trade_usd": 10,
     "jupiter.max_open_positions": 1,
     "jupiter.daily_loss_limit_usd": 15,

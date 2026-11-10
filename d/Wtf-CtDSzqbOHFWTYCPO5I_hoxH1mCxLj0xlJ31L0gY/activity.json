@@ -1,6 +1,26 @@
 {
   "rows": [
     {
+      "ts": "2026-11-10T13:26:47Z",
+      "kind": "rejected",
+      "mint": "7BdeSjH9kDwhxJ3kysbiWzJHXcguMJQnaaC2wGKdpump",
+      "agent": "scanner",
+      "title": "fomo",
+      "subtitle": "Scanner \u00b7 liq $22.1K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=7BdeSjH9kDwhxJ3kysbiWzJHXcguMJQnaaC2wGKdpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-10T13:25:46Z",
+      "kind": "rejected",
+      "mint": "8QCqrCmjCTmFarmq8SxCryuxzMBLVEWasbFaZQgXpump",
+      "agent": "scanner",
+      "title": "$h1tcoin",
+      "subtitle": "Scanner \u00b7 liq $16.9K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=8QCqrCmjCTmFarmq8SxCryuxzMBLVEWasbFaZQgXpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
       "ts": "2026-11-10T12:37:45Z",
       "kind": "rejected",
       "mint": "6GmxHKSGHbkEUXZwTmwmF7odvBueoZdJsRcJnU3Spump",
@@ -279,26 +299,6 @@
       "subtitle": "Scanner \u00b7 liq $41.68",
       "value": "Skipped",
       "link": "https://fomo.family/coin?address=67a9SfAVU59TFbpEeTgoeLPbi3DfRhcEh5HJ9Z9Cpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-10T11:35:58Z",
-      "kind": "rejected",
-      "mint": "CiuCbzit6WJBxYM58BeoCzZ2xbQMMN8ciWYn1jH6pump",
-      "agent": "scanner",
-      "title": "JensenHwang Coin",
-      "subtitle": "Scanner \u00b7 liq $16.48",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=CiuCbzit6WJBxYM58BeoCzZ2xbQMMN8ciWYn1jH6pump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-10T11:34:57Z",
-      "kind": "rejected",
-      "mint": "FRSP7naea3Fxg6pmgnTipPGVutc4th2zE8LExpXSpump",
-      "agent": "scanner",
-      "title": "67%",
-      "subtitle": "Scanner \u00b7 liq $93.48",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=FRSP7naea3Fxg6pmgnTipPGVutc4th2zE8LExpXSpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     }
   ]
 }
