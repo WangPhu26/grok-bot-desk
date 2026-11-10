@@ -7,8 +7,8 @@
   "agents": [
     {
       "name": "scanner",
-      "alive": false,
-      "lastHeartbeat": null
+      "alive": true,
+      "lastHeartbeat": "2026-11-10T10:18:25Z"
     },
     {
       "name": "auditor",
@@ -22,14 +22,14 @@
     },
     {
       "name": "executor",
-      "alive": false,
-      "lastHeartbeat": null
+      "alive": true,
+      "lastHeartbeat": "2026-11-10T10:18:25Z"
     },
     {
       "name": "risk",
-      "alive": false,
-      "lastHeartbeat": null
+      "alive": true,
+      "lastHeartbeat": "2026-11-10T10:19:10Z"
     }
   ],
-  "generatedAt": "2026-11-10T09:49:02Z"
+  "generatedAt": "2026-11-10T10:19:25Z"
 }

@@ -1,3 +1,14 @@
 {
-  "rows": []
+  "rows": [
+    {
+      "ts": "2026-11-10T10:14:53Z",
+      "kind": "rejected",
+      "mint": "Egrup7369BAm9Rxgf9Jk64zrFP3uVjJ3g2Btz9rZpump",
+      "agent": "auditor",
+      "title": "Rejected AURACOIN",
+      "subtitle": "Auditor \u00b7 liquidity pulled",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=Egrup7369BAm9Rxgf9Jk64zrFP3uVjJ3g2Btz9rZpump&chainId=1399811149&r=savipww&source=share_link"
+    }
+  ]
 }
