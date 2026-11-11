@@ -1,6 +1,16 @@
 {
   "rows": [
     {
+      "ts": "2026-11-11T04:54:06Z",
+      "kind": "rejected",
+      "mint": "Dqsa7k1gMpM1c4MnpuTdv49mELe5TJ7rkRQHqMzzpmup",
+      "agent": "scanner",
+      "title": "GTA6",
+      "subtitle": "Scanner \u00b7 liq $22.7K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=Dqsa7k1gMpM1c4MnpuTdv49mELe5TJ7rkRQHqMzzpmup&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
       "ts": "2026-11-11T04:49:00Z",
       "kind": "rejected",
       "mint": "CxCUPd5N2HXZqQJ87qFR6UUpeFmWPkgp27LnKJmGpump",
@@ -289,16 +299,6 @@
       "subtitle": "Scanner \u00b7 liq $0.00",
       "value": "Skipped",
       "link": "https://fomo.family/coin?address=Cdyyf74CfQeYWWcxHXzsrkTwQjSPPtp6ELLCFctPpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:46:27Z",
-      "kind": "rejected",
-      "mint": "B1twkZXzdtQ5AZFH4iCnHNwe1dEwkRwBFxyWHLDSpump",
-      "agent": "scanner",
-      "title": "TOMODACHI",
-      "subtitle": "Scanner \u00b7 liq $2.75",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=B1twkZXzdtQ5AZFH4iCnHNwe1dEwkRwBFxyWHLDSpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     }
   ]
 }
