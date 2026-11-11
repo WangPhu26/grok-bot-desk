@@ -1,304 +1,304 @@
 {
   "rows": [
     {
-      "ts": "2026-11-11T03:30:36Z",
+      "ts": "2026-11-11T04:49:00Z",
       "kind": "rejected",
-      "mint": "BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay",
+      "mint": "CxCUPd5N2HXZqQJ87qFR6UUpeFmWPkgp27LnKJmGpump",
       "agent": "scanner",
-      "title": "Mickey Mantled",
-      "subtitle": "Scanner \u00b7 liq $13.0K",
+      "title": "AURACOIN",
+      "subtitle": "Scanner \u00b7 liq $94.10",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=BqWYju6etWnvn6Tnx77u6Xqqjxd7XJDVJL8z8YeL6pay&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=CxCUPd5N2HXZqQJ87qFR6UUpeFmWPkgp27LnKJmGpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:28:35Z",
+      "ts": "2026-11-11T04:47:59Z",
       "kind": "rejected",
-      "mint": "HmGL96sHDYd4W2m7xM54tSFpUkhKNXnfNsbWgEUSpump",
+      "mint": "66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump",
       "agent": "scanner",
-      "title": "XTO",
-      "subtitle": "Scanner \u00b7 top 10 hold 100%",
+      "title": "What If",
+      "subtitle": "Scanner \u00b7 top 10 hold 36.8%",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=HmGL96sHDYd4W2m7xM54tSFpUkhKNXnfNsbWgEUSpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:27:34Z",
+      "ts": "2026-11-11T04:47:59Z",
       "kind": "rejected",
-      "mint": "GatLqKKnYxFfP4e6xWEMg5Y4NQwFcWF5yjzkQ3sJpump",
+      "mint": "FZNXNK3VnH17ujP8Mr83eKzcW3r139EdvcbwTDEhpump",
       "agent": "scanner",
-      "title": "Fuck Weak As Devs",
-      "subtitle": "Scanner \u00b7 liq $15.65",
+      "title": "UNITED CRYPTO INTELLIGENCE",
+      "subtitle": "Scanner \u00b7 top 10 hold 99.2%",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=GatLqKKnYxFfP4e6xWEMg5Y4NQwFcWF5yjzkQ3sJpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=FZNXNK3VnH17ujP8Mr83eKzcW3r139EdvcbwTDEhpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:26:33Z",
+      "ts": "2026-11-11T04:47:59Z",
       "kind": "rejected",
-      "mint": "7EqdzXfdebmSrCiHGmTo5iehyXQf2mtXajhjcc5spump",
-      "agent": "scanner",
-      "title": "neko",
-      "subtitle": "Scanner \u00b7 liq $11.4K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=7EqdzXfdebmSrCiHGmTo5iehyXQf2mtXajhjcc5spump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:24:31Z",
-      "kind": "rejected",
-      "mint": "Hfkf6RkzLEQY9xBwmjFkf7m3FjXFokTeE6bxVEoypump",
-      "agent": "scanner",
-      "title": "USOE",
-      "subtitle": "Scanner \u00b7 top 10 hold 81.6%",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=Hfkf6RkzLEQY9xBwmjFkf7m3FjXFokTeE6bxVEoypump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:24:31Z",
-      "kind": "rejected",
-      "mint": "GVEZ9mvbMSbuv7BU64actyjNbVusmNZgyYTqSVDHpump",
-      "agent": "scanner",
-      "title": "Montra",
-      "subtitle": "Scanner \u00b7 liq $22.8K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=GVEZ9mvbMSbuv7BU64actyjNbVusmNZgyYTqSVDHpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:20:27Z",
-      "kind": "rejected",
-      "mint": "FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump",
-      "agent": "scanner",
-      "title": "Bluqo",
-      "subtitle": "Scanner \u00b7 liq $13.6K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:19:27Z",
-      "kind": "rejected",
-      "mint": "D4svDvuoNA87kJMbwdT6U7QCAE7xFWDSxGnguXHjpump",
-      "agent": "scanner",
-      "title": "FOTF",
-      "subtitle": "Scanner \u00b7 +128993% in 1h",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=D4svDvuoNA87kJMbwdT6U7QCAE7xFWDSxGnguXHjpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:18:26Z",
-      "kind": "rejected",
-      "mint": "65KCHCXv61MCARh21HXnyWvCWqGzFxeCxwoodUahpump",
-      "agent": "scanner",
-      "title": "ViceCity",
-      "subtitle": "Scanner \u00b7 liq $0.00",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=65KCHCXv61MCARh21HXnyWvCWqGzFxeCxwoodUahpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:17:25Z",
-      "kind": "rejected",
-      "mint": "8bZmT6yApYZLr9dzZ5kCT7MUD7GjXxi1nmPyGc8Rpump",
-      "agent": "scanner",
-      "title": "Rockstar Games",
-      "subtitle": "Scanner \u00b7 liq $21.9K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=8bZmT6yApYZLr9dzZ5kCT7MUD7GjXxi1nmPyGc8Rpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:16:24Z",
-      "kind": "rejected",
-      "mint": "B96wAzdWRyPaYDzEmcSUJxPPuZNCk5S5sEtW3uM4pump",
+      "mint": "F2rRMngRyMJ7LwEHc32KomnDgygRDb6VyAazK9fTpump",
       "agent": "scanner",
       "title": "GTA6",
       "subtitle": "Scanner \u00b7 liq $22.9K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=B96wAzdWRyPaYDzEmcSUJxPPuZNCk5S5sEtW3uM4pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=F2rRMngRyMJ7LwEHc32KomnDgygRDb6VyAazK9fTpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:15:23Z",
+      "ts": "2026-11-11T04:44:58Z",
       "kind": "rejected",
-      "mint": "FvWiHK27haTqetaL5KjRY1UgRnN8sx1cxpDJKui8pump",
+      "mint": "6AsvizW4inZJSrNVkDrJz2aEfLUtRxPSpqb8Aykzpump",
       "agent": "scanner",
-      "title": "Buzzcoin",
-      "subtitle": "Scanner \u00b7 liq $20.6K",
+      "title": "evi4ka",
+      "subtitle": "Scanner \u00b7 liq $31.40",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=FvWiHK27haTqetaL5KjRY1UgRnN8sx1cxpDJKui8pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=6AsvizW4inZJSrNVkDrJz2aEfLUtRxPSpqb8Aykzpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:13:21Z",
+      "ts": "2026-11-11T04:41:56Z",
       "kind": "rejected",
-      "mint": "BHqjLkP8suVf5nux1mvpAUdNmcnkF5RZmSGDjHEpump",
+      "mint": "Bq7ixQg86q7wfJkR2CrRBNeTAUmWwC9Vh1R7D2tTpump",
       "agent": "scanner",
-      "title": "man vs mayhem",
-      "subtitle": "Scanner \u00b7 liq $0.00",
+      "title": "Montra",
+      "subtitle": "Scanner \u00b7 liq $21.9K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=BHqjLkP8suVf5nux1mvpAUdNmcnkF5RZmSGDjHEpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=Bq7ixQg86q7wfJkR2CrRBNeTAUmWwC9Vh1R7D2tTpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:12:20Z",
+      "ts": "2026-11-11T04:32:54Z",
       "kind": "rejected",
-      "mint": "AjUjJdhKxbjoWxFeW8RLkK8Sa6rkf5hVeUUWSy8tpump",
+      "mint": "BcWS3Mn3eVFXBQDx6ee6jDRKyEZMG7yzfSnHwTU8pump",
       "agent": "scanner",
-      "title": "income",
-      "subtitle": "Scanner \u00b7 liq $59.27",
+      "title": "Doctor Doom",
+      "subtitle": "Scanner \u00b7 liq $17.3K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=AjUjJdhKxbjoWxFeW8RLkK8Sa6rkf5hVeUUWSy8tpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=BcWS3Mn3eVFXBQDx6ee6jDRKyEZMG7yzfSnHwTU8pump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:11:19Z",
+      "ts": "2026-11-11T04:32:54Z",
       "kind": "rejected",
-      "mint": "C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump",
+      "mint": "4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump",
       "agent": "scanner",
-      "title": "Bublublu",
-      "subtitle": "Scanner \u00b7 liq $0.00",
+      "title": "fomo",
+      "subtitle": "Scanner \u00b7 liq $21.8K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:10:18Z",
+      "ts": "2026-11-11T04:30:53Z",
       "kind": "rejected",
-      "mint": "8E1rVNV97EXsskDbRFtbRhFs3ERdPjSNvALpz9WGpump",
+      "mint": "9QFNyHv7k1jpxEFdma9xRMvXzYhjjQLSiVNaeJRWpump",
       "agent": "scanner",
-      "title": "Robinhood official",
-      "subtitle": "Scanner \u00b7 liq $23.0K",
+      "title": "Doomed Yeti",
+      "subtitle": "Scanner \u00b7 liq $28.05",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=8E1rVNV97EXsskDbRFtbRhFs3ERdPjSNvALpz9WGpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=9QFNyHv7k1jpxEFdma9xRMvXzYhjjQLSiVNaeJRWpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:08:17Z",
+      "ts": "2026-11-11T04:29:52Z",
       "kind": "rejected",
-      "mint": "B4MEhw1a6Bag8YvZehbqtyejnyLrCDXg5HQdk8tdpump",
+      "mint": "ACQaUNABukRNGqJJS2geF1XhDignZuvG21hcE9gZpump",
       "agent": "scanner",
-      "title": "Buzzcoin",
-      "subtitle": "Scanner \u00b7 liq $16.0K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=B4MEhw1a6Bag8YvZehbqtyejnyLrCDXg5HQdk8tdpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:06:15Z",
-      "kind": "rejected",
-      "mint": "Fq4gVc1NsLpv7BUpRZYfurA4TLVd9jrJg3NWXBaQpump",
-      "agent": "scanner",
-      "title": "DCA",
-      "subtitle": "Scanner \u00b7 liq $13.0K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=Fq4gVc1NsLpv7BUpRZYfurA4TLVd9jrJg3NWXBaQpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:06:15Z",
-      "kind": "rejected",
-      "mint": "6scFvaB9SQHnhL8MqBuoUAFtq3z1B9oXqzy7xXN72GLc",
-      "agent": "scanner",
-      "title": "Napster",
-      "subtitle": "Scanner \u00b7 liq $13.3K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=6scFvaB9SQHnhL8MqBuoUAFtq3z1B9oXqzy7xXN72GLc&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:05:14Z",
-      "kind": "rejected",
-      "mint": "DDqeBvT14zCge916Bmak1FbBSABRHzVGUBMGwQRmpump",
-      "agent": "scanner",
-      "title": "XTO",
-      "subtitle": "Scanner \u00b7 liq $0.00",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=DDqeBvT14zCge916Bmak1FbBSABRHzVGUBMGwQRmpump&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T03:05:14Z",
-      "kind": "rejected",
-      "mint": "FnD14xrgaKLVZSA9EDzDXGmai4wpTjfgNuyQSgLTpump",
-      "agent": "scanner",
-      "title": "ORVIX",
+      "title": "GTA IN REAL LIFE",
       "subtitle": "Scanner \u00b7 liq $11.1K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=FnD14xrgaKLVZSA9EDzDXGmai4wpTjfgNuyQSgLTpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=ACQaUNABukRNGqJJS2geF1XhDignZuvG21hcE9gZpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:04:13Z",
+      "ts": "2026-11-11T04:28:51Z",
       "kind": "rejected",
-      "mint": "GunB2mbKrAovaPGXuyQNznz6P5KB8Qoha97eNHebpump",
+      "mint": "GEapGGJPgnPm3BXEGZm1VnrrQP1aAMhv5mQyTbhKpump",
+      "agent": "scanner",
+      "title": "income",
+      "subtitle": "Scanner \u00b7 liq $11.54",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=GEapGGJPgnPm3BXEGZm1VnrrQP1aAMhv5mQyTbhKpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:21:49Z",
+      "kind": "rejected",
+      "mint": "Dw9h2YJSWy3DkY6EhRvJjB6ncK613GCWrWmCyCrApump",
+      "agent": "scanner",
+      "title": "Konnichiwa Dog",
+      "subtitle": "Scanner \u00b7 liq $11.7K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=Dw9h2YJSWy3DkY6EhRvJjB6ncK613GCWrWmCyCrApump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:20:48Z",
+      "kind": "rejected",
+      "mint": "gGd4NRoKQApFiuFuP6GyEh89pvDoHC69yQ5A4U4hpay",
+      "agent": "scanner",
+      "title": "Elon Musk",
+      "subtitle": "Scanner \u00b7 liq $10.6K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=gGd4NRoKQApFiuFuP6GyEh89pvDoHC69yQ5A4U4hpay&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:18:46Z",
+      "kind": "rejected",
+      "mint": "GweeweWsZmx9J49AFVvznGrrpqa11r1qeq9iWLq4pump",
+      "agent": "scanner",
+      "title": "Honey",
+      "subtitle": "Scanner \u00b7 liq $13.4K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=GweeweWsZmx9J49AFVvznGrrpqa11r1qeq9iWLq4pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:15:44Z",
+      "kind": "rejected",
+      "mint": "He94bThFSsjFR7X1ygVDZQssJLHDFL28RaPzPjfapump",
+      "agent": "scanner",
+      "title": "fomo",
+      "subtitle": "Scanner \u00b7 liq $0.00",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=He94bThFSsjFR7X1ygVDZQssJLHDFL28RaPzPjfapump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:14:43Z",
+      "kind": "rejected",
+      "mint": "4qVGnxDxn33uYeDXh4ead76vnmV3BHu7RA2dwZqSpump",
+      "agent": "scanner",
+      "title": "AMZ",
+      "subtitle": "Scanner \u00b7 liq $47.17",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=4qVGnxDxn33uYeDXh4ead76vnmV3BHu7RA2dwZqSpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:13:42Z",
+      "kind": "rejected",
+      "mint": "6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump",
+      "agent": "scanner",
+      "title": "The Tired Monkey",
+      "subtitle": "Scanner \u00b7 liq $12.0K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T04:11:40Z",
+      "kind": "rejected",
+      "mint": "GjSCsTQRgTKcNhiay4y1KGXuNWgf5VQsCsXdokiYpump",
       "agent": "scanner",
       "title": "IShowSpeed",
-      "subtitle": "Scanner \u00b7 liq $22.5K",
+      "subtitle": "Scanner \u00b7 liq $22.4K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=GunB2mbKrAovaPGXuyQNznz6P5KB8Qoha97eNHebpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=GjSCsTQRgTKcNhiay4y1KGXuNWgf5VQsCsXdokiYpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T03:01:11Z",
+      "ts": "2026-11-11T04:09:39Z",
       "kind": "rejected",
-      "mint": "8NNponmY1w7QhD6GMdJzRyNMESy9jVgPzDq8xffnpump",
+      "mint": "3sQMFggWi2Z9T7TPjJ3z6qZxdsdeLzCxEzuGFkBhpump",
       "agent": "scanner",
-      "title": "falling guy",
-      "subtitle": "Scanner \u00b7 liq $3.17",
+      "title": "ARTBANK",
+      "subtitle": "Scanner \u00b7 liq $0.00",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=8NNponmY1w7QhD6GMdJzRyNMESy9jVgPzDq8xffnpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=3sQMFggWi2Z9T7TPjJ3z6qZxdsdeLzCxEzuGFkBhpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:58:09Z",
+      "ts": "2026-11-11T04:08:37Z",
       "kind": "rejected",
-      "mint": "7GzR7bZK55eMdDYzuLFidsTmXVoJRkD2itucyMN4pump",
+      "mint": "R17vVbuVgvx8v93pGSzWTCKpjh6ArXf3DaMyR2epump",
       "agent": "scanner",
-      "title": "bagwork.capital",
-      "subtitle": "Scanner \u00b7 liq $10.9K",
+      "title": "ZEROONE",
+      "subtitle": "Scanner \u00b7 liq $16.55",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=7GzR7bZK55eMdDYzuLFidsTmXVoJRkD2itucyMN4pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=R17vVbuVgvx8v93pGSzWTCKpjh6ArXf3DaMyR2epump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:54:58Z",
+      "ts": "2026-11-11T04:07:36Z",
       "kind": "rejected",
-      "mint": "a4tAM8JocefoJQnZMncKieGokYvJcZD7YUrzwjsSGiB",
-      "agent": "scanner",
-      "title": "Diamond Hands",
-      "subtitle": "Scanner \u00b7 liq $14.2K",
-      "value": "Skipped",
-      "link": "https://fomo.family/coin?address=a4tAM8JocefoJQnZMncKieGokYvJcZD7YUrzwjsSGiB&chainId=1399811149&r=Hely_kimo&source=share_link"
-    },
-    {
-      "ts": "2026-11-11T02:53:57Z",
-      "kind": "rejected",
-      "mint": "BS16Gp7bYhM5nL6EDabvv7zcLi78bH71nuVMzpJrpump",
+      "mint": "HMYdN4BD1rJZzgAiChzUZKk2cvVbxVgp3cubRUycpump",
       "agent": "scanner",
       "title": "Cucurella Cat",
-      "subtitle": "Scanner \u00b7 liq $30.0K",
+      "subtitle": "Scanner \u00b7 liq $25.9K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=BS16Gp7bYhM5nL6EDabvv7zcLi78bH71nuVMzpJrpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=HMYdN4BD1rJZzgAiChzUZKk2cvVbxVgp3cubRUycpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:52:55Z",
+      "ts": "2026-11-11T04:05:35Z",
       "kind": "rejected",
-      "mint": "5XwEc6rbgSYJ6PRMATiVRqXZEHXD8Syi69NSUdz9pump",
+      "mint": "4gcP2r9RwZ5ydLAT8dfuFE474LtFTA6FDdoPEwAwpump",
       "agent": "scanner",
-      "title": "NVIDIA",
-      "subtitle": "Scanner \u00b7 liq $21.5K",
+      "title": "Soljack",
+      "subtitle": "Scanner \u00b7 liq $18.75",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=5XwEc6rbgSYJ6PRMATiVRqXZEHXD8Syi69NSUdz9pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=4gcP2r9RwZ5ydLAT8dfuFE474LtFTA6FDdoPEwAwpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:52:55Z",
+      "ts": "2026-11-11T04:04:34Z",
       "kind": "rejected",
-      "mint": "AZM6YievYJQe7zohNitxRbKvE7V4oCNHpK3rJ1u9pump",
+      "mint": "AcpjKtQ7KNLncnvkpXZXTU28YaHj7SEjmycs7EcHpump",
       "agent": "scanner",
-      "title": "falling guy",
-      "subtitle": "Scanner \u00b7 liq $4.69",
+      "title": "Claude AI",
+      "subtitle": "Scanner \u00b7 liq $23.0K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=AZM6YievYJQe7zohNitxRbKvE7V4oCNHpK3rJ1u9pump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=AcpjKtQ7KNLncnvkpXZXTU28YaHj7SEjmycs7EcHpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:49:54Z",
+      "ts": "2026-11-11T03:56:32Z",
       "kind": "rejected",
-      "mint": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
+      "mint": "BbgqgiVryKuTRTViq6w7yLDVxsUL3oqSCJ6NLmKopmup",
       "agent": "scanner",
-      "title": "Veylfi",
-      "subtitle": "Scanner \u00b7 liq $13.9K",
+      "title": "GTA6",
+      "subtitle": "Scanner \u00b7 liq $22.8K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=BbgqgiVryKuTRTViq6w7yLDVxsUL3oqSCJ6NLmKopmup&chainId=1399811149&r=Hely_kimo&source=share_link"
     },
     {
-      "ts": "2026-11-11T02:48:52Z",
+      "ts": "2026-11-11T03:54:30Z",
       "kind": "rejected",
-      "mint": "73GfdEFemhkWJR4xJErQ8FE14at44uJPhxrQQruzpump",
+      "mint": "9sw5u1jTxFR5pvXKk1L4BbLnoUYLFrxbcHvh8grLpump",
       "agent": "scanner",
-      "title": "falling guy",
-      "subtitle": "Scanner \u00b7 liq $6.42",
+      "title": "Robinhood official",
+      "subtitle": "Scanner \u00b7 liq $22.7K",
       "value": "Skipped",
-      "link": "https://fomo.family/coin?address=73GfdEFemhkWJR4xJErQ8FE14at44uJPhxrQQruzpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+      "link": "https://fomo.family/coin?address=9sw5u1jTxFR5pvXKk1L4BbLnoUYLFrxbcHvh8grLpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T03:54:30Z",
+      "kind": "rejected",
+      "mint": "3VPcPi48dL3FoP8K5f7St8BiBwneZ8bdtbLNNSQWpump",
+      "agent": "scanner",
+      "title": "UODF",
+      "subtitle": "Scanner \u00b7 top 10 hold 100%",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=3VPcPi48dL3FoP8K5f7St8BiBwneZ8bdtbLNNSQWpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T03:51:29Z",
+      "kind": "rejected",
+      "mint": "AkCMhqLNKq2jGWRaJPevQmF95VjgJm9z2deCccYXsVYm",
+      "agent": "scanner",
+      "title": "HOLD'EM",
+      "subtitle": "Scanner \u00b7 liq $13.3K",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=AkCMhqLNKq2jGWRaJPevQmF95VjgJm9z2deCccYXsVYm&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T03:48:28Z",
+      "kind": "rejected",
+      "mint": "4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump",
+      "agent": "scanner",
+      "title": "ORVIX",
+      "subtitle": "Scanner \u00b7 liq $0.00",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T03:46:27Z",
+      "kind": "rejected",
+      "mint": "Cdyyf74CfQeYWWcxHXzsrkTwQjSPPtp6ELLCFctPpump",
+      "agent": "scanner",
+      "title": "LINUX",
+      "subtitle": "Scanner \u00b7 liq $0.00",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=Cdyyf74CfQeYWWcxHXzsrkTwQjSPPtp6ELLCFctPpump&chainId=1399811149&r=Hely_kimo&source=share_link"
+    },
+    {
+      "ts": "2026-11-11T03:46:27Z",
+      "kind": "rejected",
+      "mint": "B1twkZXzdtQ5AZFH4iCnHNwe1dEwkRwBFxyWHLDSpump",
+      "agent": "scanner",
+      "title": "TOMODACHI",
+      "subtitle": "Scanner \u00b7 liq $2.75",
+      "value": "Skipped",
+      "link": "https://fomo.family/coin?address=B1twkZXzdtQ5AZFH4iCnHNwe1dEwkRwBFxyWHLDSpump&chainId=1399811149&r=Hely_kimo&source=share_link"
     }
   ]
 }
